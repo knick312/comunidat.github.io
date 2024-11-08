@@ -1,0 +1,130 @@
+/* comunidades.css */
+
+/* Estilos generales */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+#comunidades-content {
+    text-align: center;
+}
+
+.comunidad {
+    margin: 20px 0;
+}
+
+.comunidad h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.comunidad hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.streamer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.streamer-logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px 0;
+    object-fit: cover;
+}
+
+.streamer-logo p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Botón flotante para donaciones */
+.boton-flotante {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    text-align: center;
+}
+
+.boton-flotante a {
+    text-decoration: none;
+    color: #333;
+}
+
+.boton-flotante img {
+    width: 50px;
+    height: auto;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer .banner img {
+    width: 150px;
+    height: auto;
+}
+
+.derechos-de-autor {
+    font-size: 14px;
+}
+
+/* Asegura que el pie de página esté al final de la página, solo si el contenido es más corto */
+html {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: ;
+}
+
+main {
+    flex: 1;
+}

@@ -1,0 +1,154 @@
+/* Estilos generales */
+html {
+    height: 80%; /* Establecer altura al 100% para abarcar toda la página */
+    background-image: url('../imagen/Nuevamente+el+8+de+Marzo+se+tiñe+de+violeta+por+3er+año+consecutivo+para+vivir+la+tercera+edición+de+Los+Premios+Cleopatra\,+la+gala+de+premiación+que+reune+a+las+mejores+creadoras+de+contenido.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    position: relative; /* Añadido para el posicionamiento absoluto de la barra de navegación */
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto; /* Cambiado de 100% a auto */
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    z-index: 1000;
+    transition: background-color 0.3s;
+    border-radius: 0 0 15px 15px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s; /* Transición suave para el color del texto */
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+.video-container {
+    position: relative;
+    width: 932px; /* Ancho del video */
+    height: 524px; /* Alto del video */
+    margin: 50px auto 0; /* Espacio superior para evitar solapamiento con el menú */
+    opacity: 0.8; /* Opacidad del video */
+}
+
+.video-container video {
+    width: 100%; /* Ancho del video al 100% del contenedor */
+    height: auto; /* Altura automática para mantener la relación de aspecto */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.jefatura-section {
+    margin-top: 20px; /* Espacio superior */
+}
+
+.jefatura-section h2 {
+    font-size: 24px; /* Tamaño del encabezado */
+    margin-bottom: 10px; /* Margen inferior del encabezado */
+    color: #fff;
+}
+
+.fecha-evento {
+    border: none;
+    border-top: 1px solid #ccc; /* Color del divisor */
+    margin: 20px 0; /* Margen superior e inferior */
+}
+
+.fecha-evento::before {
+    content: "8M"; /* Contenido del mini divisor (fecha del evento) */
+    display: inline-block;
+    padding: 0 10px; /* Espaciado interno */
+    background-color: #fff; /* Color de fondo */
+    position: relative;
+    top: -12px; /* Ajusta la posición vertical según sea necesario */
+    font-weight: bold; /* Fuente en negrita */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+.publicaciones-instagram {
+    margin-top: 20px;
+}
+
+.publicaciones-instagram h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    grid-gap: 20px;
+}
+
+.instagram-post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.instagram-post img {
+    max-width: 100%;
+    height: auto;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow: auto;
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.show-modal {
+    display: block;
+}

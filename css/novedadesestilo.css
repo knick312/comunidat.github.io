@@ -1,0 +1,113 @@
+/* Estilos generales */
+html {
+    height: 100%; /* Establecer altura al 100% para abarcar toda la página */
+    background-image: url('../imagen/somo\ coso.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    position: relative; /* Añadido para el posicionamiento absoluto de la barra de navegación */
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto; /* Cambiado de 100% a auto */
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    z-index: 1000;
+    transition: background-color 0.3s;
+    border-radius: 0 0 15px 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s; /* Transición suave para el color del texto */
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+.video-container {
+    position: relative;
+    width: 100%; /* Ancho del video al 100% del contenedor */
+    height: auto; /* Altura automática para mantener la relación de aspecto */
+    margin: 50px auto 0; /* Espacio superior para evitar solapamiento con el menú */
+    opacity: 0.8; /* Opacidad del video */
+}
+
+.video-container video {
+    width: 100%; /* Ancho del video al 100% del contenedor */
+    height: auto; /* Altura automática para mantener la relación de aspecto */
+}
+
+/* Estilos responsivos */
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 5px;
+    }
+    
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+}
+/* Estilos para la sección de novedades */
+.novedades-section {
+    margin-bottom: 30px;
+}
+
+.novedades-section h2 {
+    color: #333;
+}
+
+.novedades-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Alineación de las imágenes hacia el inicio */
+}
+
+.novedades-container img {
+    max-width: 100%; /* Asegurar que las imágenes no se salgan del contenedor */
+    width: 50%; /* Hacer que cada imagen ocupe la mitad del contenedor */
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .novedades-container img {
+        width: 100%; /* En dispositivos pequeños, hacer que las imágenes ocupen todo el ancho */
+    }
+}
