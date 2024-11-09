@@ -78,6 +78,7 @@ main {
 .streamer-logo p {
     font-size: 20px;
     margin: 5px 0;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo claro con transparencia */
 }
 
 /* Botón flotante para donaciones */
