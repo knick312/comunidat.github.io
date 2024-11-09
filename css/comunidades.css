@@ -6,6 +6,8 @@ body, html {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-image: url('./css/fondo.css'); /* Mantiene el fondo de la web */
+    background-size: cover;
 }
 
 header {
@@ -34,6 +36,7 @@ nav ul li a {
 main {
     flex: 1;
     padding: 20px;
+    background: transparent;
 }
 
 #comunidades-content {
@@ -81,11 +84,9 @@ main {
     margin: 10px 0 0;
 }
 
-/* Fondo translúcido y distribución horizontal para otros streamers */
+/* Fondo translúcido para la sección horizontal de otros streamers */
 .comunidades-contenedor {
-    background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
-    border-radius: 10px;
     margin-top: 20px;
 }
 
@@ -101,6 +102,10 @@ main {
     flex-direction: column;
     align-items: center;
     width: 150px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo translúcido sin modificar fondo general */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .streamer-logo-grid img {
