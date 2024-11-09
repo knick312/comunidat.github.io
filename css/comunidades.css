@@ -66,8 +66,8 @@ main {
 
 /* Imagen circular para el logo */
 .streamer-logo img {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;  /* Hace que la imagen sea circular */
     border: 2px solid #ccc;  /* Borde opcional alrededor del logo */
     object-fit: cover;
@@ -75,7 +75,7 @@ main {
 }
 
 .streamer-logo p {
-    font-size: 18px;
+    font-size: 20px;
     margin: 5px 0;
 }
 
