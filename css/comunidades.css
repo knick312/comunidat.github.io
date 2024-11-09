@@ -60,6 +60,21 @@ main {
     margin: 10px auto;
 }
 
+/* Contenedor para alinear logos en la sección de aldimirco */
+.streamer-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Espacio entre los logos */
+}
+
+/* Ajusta el estilo del logo a la derecha */
+.streamer-logo-right {
+    margin-left: 20px;
+}
+
+
+
 /* Fondo circular y sombra para aldimirco y valenn_molina */
 .streamer-logo {
     display: flex;
