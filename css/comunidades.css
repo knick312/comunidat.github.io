@@ -6,8 +6,9 @@ body, html {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: url('./css/fondo.css'); /* Mantiene el fondo de la web */
+    background-image: url('./imagen/fondo3.jpg'); /* Mantiene el fondo de la web */
     background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
@@ -88,6 +89,8 @@ main {
 .comunidades-contenedor {
     padding: 20px;
     margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo translúcido sin modificar fondo general */
+    border-radius: 10px;
 }
 
 .streamers-grid {
@@ -103,7 +106,7 @@ main {
     align-items: center;
     width: 150px;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.8); /* Fondo translúcido sin modificar fondo general */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo translúcido para cada logo */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
