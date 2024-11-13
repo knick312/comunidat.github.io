@@ -242,3 +242,23 @@ footer .banner img {
 .derechos-de-autor {
     font-size: 14px;
 }
+
+<<<<<<< HEAD
+/* Asegura que el pie de página esté al final de la página, solo si el contenido es más corto */
+html {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+=======
+>>>>>>> df99dc4d6019635096874cc6e46217b78c84f0ca

@@ -56,6 +56,9 @@ nav ul li a {
 nav ul li a:hover {
     color: #ffd700;
 }
+ .video-container-fondo{
+    background-color: aqua;
+ }
 
 .video-container {
     position: relative;
@@ -70,6 +73,7 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     gap: 20px; /* Espacio entre los logos */
+    background-color: aqua;
 }
 
 .video-container video {
