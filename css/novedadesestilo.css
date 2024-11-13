@@ -64,6 +64,13 @@ nav ul li a:hover {
     margin: 50px auto 0; /* Espacio superior para evitar solapamiento con el menú */
     opacity: 0.8; /* Opacidad del video */
 }
+/* Contenedor para alinear logos en la sección de aldimirco */
+.streamer-video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Espacio entre los logos */
+}
 
 .video-container video {
     width: 100%; /* Ancho del video al 100% del contenedor */
