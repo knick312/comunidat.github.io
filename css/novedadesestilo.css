@@ -62,7 +62,7 @@ nav ul li a:hover {
 
 .video-container {
     position: relative;
-    width: 100%; /* Ancho del video al 100% del contenedor */
+    width: 50%; /* Ancho del video al 100% del contenedor */
     height: auto; /* Altura automática para mantener la relación de aspecto */
     margin: 50px auto 0; /* Espacio superior para evitar solapamiento con el menú */
     opacity: 0.8; /* Opacidad del video */
