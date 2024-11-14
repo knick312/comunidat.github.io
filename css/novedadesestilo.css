@@ -77,7 +77,7 @@ nav ul li a:hover {
 }
 
 .video-container video {
-    width: 100%; /* Ancho del video al 100% del contenedor */
+    width: 50%; /* Ancho del video al 100% del contenedor */
     height: auto; /* Altura automática para mantener la relación de aspecto */
 }
 
