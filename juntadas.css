@@ -1,0 +1,175 @@
+/* Estilo para la sección de Juntadas */
+#juntadas-content {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Próximas Juntadas */
+.proximas-juntadas {
+    margin-bottom: 40px;
+}
+
+.carrusel-container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px; /* Ancho máximo ajustado */
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carrusel-items {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carrusel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.carrusel-item img {
+    width: 100%;
+    height: 350px; /* Altura más rectangular */
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.banner-texto {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+.boton-detalles {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.boton-detalles:hover {
+    background-color: #e64a19;
+}
+
+/* Botones del Carrusel */
+.carrusel-boton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 24px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.carrusel-boton.prev {
+    left: 10px;
+}
+
+.carrusel-boton.next {
+    right: 10px;
+}
+
+/* Juntadas Anteriores */
+.anteriores-juntadas .galeria-juntadas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.juntada-item {
+    text-align: center;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.juntada-item img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.juntada-item p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.ver-detalles-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.ver-detalles-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para el Modal */
+.modal {
+    display: none; /* Escondido por defecto */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+}
+
+.close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#modal-channel {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#modal-channel:hover {
+    text-decoration: underline;
+}

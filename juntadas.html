@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juntadas - Mi Sitio Web</title>
+    <link rel="stylesheet" href="./css/comunidades.css">
+    <link rel="stylesheet" href="./css/fondo.css">
+    <link rel="stylesheet" href="./css/juntadas.css">
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html" id="inicio">Inicio</a></li>
+            <li><a href="Comunidades.html" id="comunidades">Comunidades</a></li>
+            <li><a href="jefatura.html" id="jefatura">Jefatura</a></li>
+            <li><a href="#" id="drive">Drive</a></li>
+            <li><a href="./novedades.html" id="novedades">Novedades</a></li>
+            <li><a href="./juntadas.html" id="juntadas">Juntadas</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div id="juntadas-content">
+        <h1>Juntadas</h1>
+
+        <!-- Sección de Próximas Juntadas (Carrusel flotante) -->
+        <section class="proximas-juntadas">
+            <h2>Próximas Juntadas</h2>
+            <div class="carrusel-container">
+                <div class="carrusel-items">
+                    <div class="carrusel-item">
+                        <img src="./imagen/parqueM.jpg" alt="Banner Próxima Juntada 1">
+                        <div class="banner-texto">
+                            <h3>Juntada en Parque de la Mujer</h3>
+                            <p>Fecha: proximamente, 2024</p>
+                            <p>Hora: a definir</p>
+                            <p>Lugar: Puerto Madero, CABA</p>
+                            <a href="#" class="boton-detalles" data-id="1">Ver más detalles</a>
+                        </div>
+                    </div>
+                    <div class="carrusel-item">
+                        <img src="./imagen/proxima-juntada2.png" alt="Banner Próxima Juntada 2">
+                        <div class="banner-texto">
+                            <h3>Juntada en Plaza Mayor</h3>
+                            <p>Fecha: 30 de noviembre, 2024</p>
+                            <p>Hora: 18:00 hs</p>
+                            <p>Lugar: Plaza Mayor, Ciudad ABC</p>
+                            <a href="#" class="boton-detalles" data-id="2">Ver más detalles</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carrusel-boton prev">◀</button>
+                <button class="carrusel-boton next">▶</button>
+            </div>
+        </section>
+
+        <!-- Sección de Juntadas Anteriores -->
+        <section class="anteriores-juntadas">
+            <h2>Juntadas Anteriores</h2>
+            <div class="galeria-juntadas">
+                <div class="juntada-item">
+                    <img src="./imagen/juntada1.png" alt="Juntada Anterior 1">
+                    <p>Juntada en Plaza Mayor - 12/10/2024</p>
+                    <a href="#" class="boton-detalles" data-id="3">Ver más detalles</a>
+                </div>
+                <div class="juntada-item">
+                    <img src="./imagen/juntada2.png" alt="Juntada Anterior 2">
+                    <p>Juntada en la Playa - 05/09/2024</p>
+                    <a href="#" class="boton-detalles" data-id="4">Ver más detalles</a>
+                </div>
+                <div class="juntada-item">
+                    <img src="./imagen/juntada3.png" alt="Juntada Anterior 3">
+                    <p>Juntada en Club Social - 20/08/2024</p>
+                    <a href="#" class="boton-detalles" data-id="5">Ver más detalles</a>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+
+<!-- Modal de detalles -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2 id="modal-title"></h2>
+        <p id="modal-description"></p>
+        <p><strong>Organizador:</strong> <a id="modal-channel" href="" target="_blank">Ver canal</a></p>
+    </div>
+</div>
+
+<!-- Botón flotante de donación -->
+<div class="boton-flotante">
+    <a href="https://ceneka.net/nickmundoart" target="_blank">
+        <img src="./imagen/l2ogo-mercadopago.png" alt="Logo de MercadoPago">
+        <span>DONAR</span>
+    </a>
+</div>
+
+<footer>
+    <div class="banner">
+        <img src="./imagen/derecho autorg.png" alt="Banner Propio">
+    </div>
+    <div class="derechos-de-autor">
+        <p>&copy; 2024 nickmundoart. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+<!-- Vinculación de los scripts -->
+<script src="./js/carrusel.js"></script>
+<script src="./js/modal.js"></script>
+
+</body>
+</html>
