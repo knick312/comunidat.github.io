@@ -173,3 +173,56 @@
 #modal-channel:hover {
     text-decoration: underline;
 }
+
+/* Ajustes del Reproductor de Video */
+.galeria-juntadas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Espaciado uniforme entre videos */
+    gap: 20px; /* Separación entre los videos */
+}
+
+.juntada-item {
+    text-align: center;
+    flex: 1 1 calc(33.333% - 20px); /* Tres videos por fila con espacio */
+    max-width: 400px; /* Ancho máximo de cada video */
+    margin: 0 auto; /* Centrados */
+}
+
+.reproductor-personalizado {
+    position: relative;
+    width: 100%; /* Ancho automático ajustado al contenedor */
+    height: 220px; /* Alto fijo */
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.reproductor-personalizado iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Mejoras para el texto */
+.juntada-item p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.ver-detalles-btn {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.ver-detalles-btn:hover {
+    background-color: #0056b3;
+}
