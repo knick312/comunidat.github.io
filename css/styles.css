@@ -1,0 +1,50 @@
+/* Pantalla de carga */
+.pantalla-carga {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo semitransparente */
+    z-index: 9999; /* Asegura que esté por encima de todo */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Logo en la pantalla de carga */
+.pantalla-carga img.logo-carga {
+    width: 150px; /* Ajusta el tamaño del logo */
+    margin-bottom: 20px; /* Espacio entre el logo y la barra */
+}
+
+/* Barra de carga */
+.barra-carga {
+    width: 70%; /* Ancho de la barra */
+    height: 10px; /* Altura de la barra */
+    background-color: #ccc; /* Fondo de la barra */
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.barra-carga .progreso {
+    height: 100%;
+    width: 0;
+    background-color: #f187f7; /* Color del progreso */
+    transition: width 0.5s ease-in-out;
+    border-radius: 5px;
+}
+
+/* Estilos específicos para el logo circular */
+.logo-carga {
+    width: 100px; /* Tamaño ajustable */
+    height: 100px;
+    border-radius: 50%; /* Hace el logo circular */
+    object-fit: cover; /* Asegura que la imagen se recorte correctamente */
+    margin-bottom: 20px; /* Espaciado entre el logo y la barra de carga */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
