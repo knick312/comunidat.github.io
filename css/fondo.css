@@ -116,3 +116,48 @@ footer {
     font-size: 24px;
     color: #666; /* Color del texto de derechos de autor */
 }
+
+/* Contenedor del menú desplegable */
+.menu-desplegable {
+    position: relative;
+}
+
+/* Submenú oculto por defecto */
+.menu-desplegable .submenu {
+    display: none;
+    position: absolute;
+    top: 100%; /* Coloca el submenú justo debajo del enlace principal */
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo del submenú */
+    border: 1px solid #ddd; /* Borde del submenú */
+    padding: 10px 0;
+    list-style: none;
+    min-width: 150px;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo de los elementos del submenú */
+.menu-desplegable .submenu li {
+    margin: 0;
+}
+
+/* Estilo de los enlaces del submenú */
+.menu-desplegable .submenu li a {
+    display: block;
+    padding: 10px 15px;
+    color: #debb1f;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+/* Cambio de fondo al pasar el cursor por un enlace del submenú */
+.menu-desplegable .submenu li a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Mostrar el submenú al pasar el cursor por el contenedor */
+.menu-desplegable:hover .submenu {
+    display: block;
+}
