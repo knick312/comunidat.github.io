@@ -1,0 +1,58 @@
+/* Estilo para la cuenta regresiva */
+.cuenta-regresiva {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    z-index: 9999; /* Asegura que el contador esté sobre otros elementos */
+}
+
+.cuenta-regresiva h2 {
+    font-size: 36px;
+    color: #ff4c4c; /* Color llamativo para el título */
+}
+
+.cuenta-regresiva p {
+    font-size: 24px;
+    color: #555;
+}
+
+.tiempo {
+    font-size: 48px;
+    font-weight: bold;
+    color: #ff4c4c;
+}
+
+/* Estilos para la pantalla de carga */
+.pantalla-carga {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000; /* Asegura que la pantalla de carga esté por encima del contenido */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-carga {
+    max-width: 150px;
+}
+
+.barra-carga {
+    width: 100%;
+    max-width: 500px;
+    height: 4px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.progreso {
+    width: 0;
+    height: 100%;
+    background-color: #4caf50;
+}
