@@ -10,10 +10,10 @@ document.addEventListener('DOMContentLoaded', function () {
     // Información de las juntadas (añadí las anteriores)
     const juntadasInfo = {
         1: {
-            title: "Juntada en Parque Central",
-            description: "Únete a nosotros para disfrutar de una tarde al aire libre en el Parque Central. Habrá música, juegos y buena compañía.",
-            organizer: "Juan Pérez",
-            channel: "https://www.youtube.com/juanperez"
+            title: "Juntada en Parque de la mujer",
+            description: "Únete a nosotros para disfrutar de una tarde al aire libre en el Parque de la mujer en puerto madero. Habrá música, juegos y buena compañía.",
+            organizer: "que vuelvavalen",
+            channel: "#"
         },
         2: {
             title: "Juntada en Plaza Mayor",
