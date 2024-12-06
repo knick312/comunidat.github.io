@@ -1,14 +1,14 @@
-// Indicar si el evento está cancelado
+// Indicar si el evento está supendido
 const eventoCancelado = true; // Cambia a `false` si el evento no está cancelado
 
 // Fecha del evento (si no está cancelado)
 const fechaEvento = new Date("Dec 25, 2024 00:00:00").getTime();
 
 const actualizarMensaje = () => {
-    if (eventoCancelado) {
+    if (eventosupendido hasta nueva fecha) {
         // Si el evento está cancelado, mostrar el mensaje correspondiente
-        document.getElementById("contador").innerHTML = "¡Estreno cancelado!";
-        document.querySelector(".cuenta-regresiva p").innerHTML = "Lo sentimos, el estreno no se llevará a cabo.";
+        document.getElementById("contador").innerHTML = "¡Estreno supendido hasta nueva fecha!";
+        document.querySelector(".cuenta-regresiva p").innerHTML = "Lo sentimos, el estreno de la web no se llevará a cabo de momento.";
         
         // Habilitar la interacción con el contenido inmediatamente
         document.querySelector('.contenido-principal').classList.add('habilitado');
