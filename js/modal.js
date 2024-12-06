@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
         1: {
             title: "Juntada en Parque de la mujer",
             description: "Únete a nosotros para disfrutar de una tarde al aire libre en el Parque de la mujer en puerto madero. Habrá música, juegos y buena compañía.",
-            organizer: "que vuelvavalen",
+            organizer: " Varias Comunidades streamers",
             channel: "#"
         },
         2: {
