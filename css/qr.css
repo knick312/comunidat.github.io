@@ -2,7 +2,7 @@
 .boton-qr-flotante {
     position: fixed;
     bottom: 20px;
-    left: 20px; /* Cambiado para mover el botón hacia la esquina izquierda */
+    left: 20px; /* Posicionándolo en la esquina inferior izquierda */
     background-color: #007BFF;
     color: #fff;
     padding: 10px 15px;
@@ -10,7 +10,7 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     text-align: center;
     cursor: pointer;
-    z-index: 1000;
+    z-index: 10000; /* Se asegura que esté sobre todo, pero solo el QR */
 }
 
 .boton-qr-flotante img {
@@ -28,8 +28,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    z-index: 1001;
+    background-color: rgba(0, 0, 0, 0.9); /* Fondo opaco */
+    z-index: 10001; /* Mayor que cualquier otro elemento (incluido el pie de página) */
     justify-content: center;
     align-items: center;
 }
