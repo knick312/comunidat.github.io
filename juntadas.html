@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./css/comunidades.css">
     <link rel="stylesheet" href="./css/fondo.css">
     <link rel="stylesheet" href="./css/juntadas.css">
+     <link rel="stylesheet" href="./css/qr.css">
+    <script src="./js/qr2.js"></script> <!-- Archivo JS externo -->
 </head>
 <body>
 <header>
@@ -128,7 +130,17 @@
         <span>DONAR</span>
     </a>
 </div>
+<!-- Botón flotante -->
+<div class="boton-qr-flotante" id="botonQR">
+    <img src="./imagen/uala.png" alt="QR">
+    <span>Donar</span>
+</div>
 
+<!-- QR flotante -->
+<div class="qr-overlay" id="qrOverlay">
+    <span class="cerrar" id="cerrarQR">&times;</span>
+    <img src="./imagen/uala.png" alt="QR de Donación Banco">
+    
 <footer>
     <div class="banner">
         <img src="./imagen/derecho autorg.png" alt="Banner Propio">
