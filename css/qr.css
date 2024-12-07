@@ -1,0 +1,49 @@
+/* Botón flotante */
+.boton-qr-flotante {
+    position: fixed;
+    bottom: 20px;
+    left: 20px; /* Cambiado para mover el botón hacia la esquina izquierda */
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.boton-qr-flotante img {
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* Estilo para la pantalla del QR flotante */
+.qr-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1001;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-overlay img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.qr-overlay .cerrar {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
