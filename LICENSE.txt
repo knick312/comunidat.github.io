@@ -1,0 +1,2 @@
+LICENSE.txt
+no sobre modificar lo que ya funciona como funciona, solo agregar y corregir , culaquier dudas dirigase en el apartado discusiones de github de este repositorio
