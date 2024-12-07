@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/contador.css">
     <script src="./js/loader.js" defer></script>
-    
+    <link rel="stylesheet" href="./css/qr.css">
+    <script src="./js/qr2.js"></script> <!-- Archivo JS externo -->
 
 <body>
     <!-- Pantalla de carga -->
@@ -65,6 +66,16 @@
         <span>DONAR</span>
     </a>
 </div>
+    <!-- Botón flotante -->
+<div class="boton-qr-flotante" id="botonQR">
+    <img src="./imagen/uala.png" alt="QR">
+    <span>Donar</span>
+</div>
+
+<!-- QR flotante -->
+<div class="qr-overlay" id="qrOverlay">
+    <span class="cerrar" id="cerrarQR">&times;</span>
+    <img src="./imagen/uala.png" alt="QR de Donación Banco">
 
 <script src="script.js"></script>
 </body>
