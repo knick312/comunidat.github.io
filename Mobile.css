@@ -1,0 +1,22 @@
+/* mobile.css */
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+  /* Ajusta el tamaño de la fuente y los márgenes */
+  body {
+    font-size: 16px;
+    margin: 10px;
+  }
+  
+  /* Ajusta el tamaño de los elementos */
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Ajusta el tamaño de los botones */
+  button {
+    width: 100%;
+    padding: 10px;
+  }
+}
