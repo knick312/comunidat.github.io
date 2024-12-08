@@ -1,22 +1,127 @@
-/* mobile.css */
+/* estilos.css */
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+section {
+  background-color: #f7f7f7;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
 
 /* Estilos para dispositivos móviles */
 @media only screen and (max-width: 768px) {
-  /* Ajusta el tamaño de la fuente y los márgenes */
   body {
     font-size: 16px;
-    margin: 10px;
   }
   
-  /* Ajusta el tamaño de los elementos */
-  img {
-    width: 100%;
-    height: auto;
-  }
-  
-  /* Ajusta el tamaño de los botones */
-  button {
-    width: 100%;
+  header {
     padding: 10px;
+  }
+  
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  main {
+    padding: 10px;
+  }
+  
+  section {
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    font-size: 18px;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+}
+
+/* Estilos para dispositivos de escritorio */
+@media only screen and (min-width: 769px) {
+  body {
+    font-size: 18px;
+  }
+  
+  header {
+    padding: 20px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  p {
+    font-size: 18px;
   }
 }
