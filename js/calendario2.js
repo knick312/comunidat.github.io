@@ -12,9 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
 
     const eventos = [
-        { fecha: new Date(anio, mes, 5), descripcion: "Streaming Especial con Nick" },
-        { fecha: new Date(anio, mes, 12), descripcion: "Evento Presencial: Taller de Arte" },
-        { fecha: new Date(anio, mes, 20), descripcion: "Streaming de Comunidad" },
+        { fecha: new Date(anio, mes, 19), descripcion: "Streaming Especial con Nick" },
+        { fecha: new Date(anio, mes, 19), descripcion: "prox" },
+        { fecha: new Date(anio, mes, 20), descripcion: "prox" },
     ];
 
     function renderizarCalendario() {
@@ -96,9 +96,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
 
     const eventos = [
-        { fecha: new Date(anio, mes, 5), descripcion: "Streaming Especial con Nick", link: "https://twitch.tv/nick" },
-        { fecha: new Date(anio, mes, 12), descripcion: "Evento Presencial: Taller de Arte", link: "https://tallerarte.com" },
-        { fecha: new Date(anio, mes, 20), descripcion: "Streaming de Comunidad", link: "https://twitch.tv/stream" },
+        { fecha: new Date(anio, mes, 12), descripcion: "Streaming Especial con Nick", link: "https://twitch.tv/mundobarista" },
+        
     ];
 
     // Crear el modal flotante
@@ -215,9 +214,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
 
     const eventos = [
-        { fecha: new Date(anio, mes, 5), descripcion: "Streaming Especial con Nick", link: "https://twitch.tv/nick" },
-        { fecha: new Date(anio, mes, 12), descripcion: "Evento Presencial: Taller de Arte", link: "https://tallerarte.com" },
-        { fecha: new Date(anio, mes, 20), descripcion: "Streaming de Comunidad", link: "https://twitch.tv/stream" },
+        { fecha: new Date(anio, mes, 19), descripcion: "Streaming Especial con Nick", link: "https://twitch.tv/mundobarista" },
+       
     ];
 
     function renderizarCalendario() {
@@ -302,8 +300,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const calendarioEl = document.getElementById('calendario');
     
     const eventos = [
-        { fecha: '2024-12-10', descripcion: 'Evento de Streaming con Influencer A' },
-        { fecha: '2024-12-20', descripcion: 'Torneo presencial en la ciudad B' },
+       
         { fecha: '2024-12-25', descripcion: 'Evento especial de Navidad' },
     ];
     
