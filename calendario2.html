@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario de Eventos</title>
+    <link rel="stylesheet" href="./css/comunidades.css">
+    <link rel="stylesheet" href="./css/fondo.css">
+    <link rel="stylesheet" href="./css/juntadas.css">
+    <link rel="stylesheet" href="./css/calendario2.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" id="inicio">Inicio</a></li>
+                <li><a href="./Comunidades.html" id="Comunidades">Comunidades</a></li>
+                <li class="menu-desplegable">
+                    <a href="plataformas.html" id="plataformas">Plataformas</a>
+                    <ul class="submenu">
+                        <li><a href="./kick/kickprox.html">KickProx</a></li>
+                        <li><a href="OtraPagina.html">Trovo</a></li>
+                    </ul>
+                </li>
+                <li><a href="jefatura.html" id="jefatura">Jefatura</a></li>
+                <li><a href="#" id="drive">Drive</a></li>
+                <li><a href="./novedades.html" id="novedades">Novedades</a></li>
+                <li><a href="#" id="juntadas">Juntadas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="calendario-integrado">
+            <h1>Calendario de Eventos</h1>
+            <div class="control-fecha">
+                <button id="prevMes">&#9664; Mes Anterior</button>
+                <span id="mesAnio"></span>
+                <button id="nextMes">Mes Siguiente &#9654;</button>
+            </div>
+            <div class="calendario" id="calendario"></div>
+            <div class="agregar-evento">
+                <h2>¿Quieres agregar un evento?</h2>
+                <p>Contacta al fundador de la web para que tu evento sea añadido al calendario.</p>
+                <button class="btn-contacto" onclick="window.location.href='contacto.html'">Subir Evento</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="banner">
+            <img src="./imagen/derecho-autorg.png" alt="Banner Propio">
+        </div>
+        <div class="derechos-de-autor">
+            <p>&copy; 2024 nickmundoart. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Modal flotante para la descripción dinámica -->
+    <div class="modal-flotante">
+        <div class="modal-contenido-flotante">
+            <span class="cerrar-modal">✖</span>
+            <div id="modal-dinamico-flotante"></div>
+        </div>
+    </div>
+
+    <script src="./js/calendario2.js"></script>
+</body>
+</html>
