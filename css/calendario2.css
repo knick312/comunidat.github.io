@@ -1,0 +1,153 @@
+body {
+    background: url('./imagen/fondo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.calendario-integrado {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.control-fecha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.control-fecha button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.calendario {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    text-align: left;
+}
+
+.calendario .titulo-dia {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+}
+
+.calendario .dia {
+    padding: 10px;
+    background-color: #444;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.calendario .dia:hover {
+    background-color: #555;
+}
+
+.calendario .fecha {
+    font-weight: bold;
+}
+
+.calendario .eventos {
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #f187f7;
+}
+
+/* Estilos generales para el modal flotante */
+.modal {
+    display: none; /* Oculto por defecto */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 10000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.modal .cerrar-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 18px;
+    color: red;
+    cursor: pointer;
+}
+
+/* Botón para el evento */
+.btn-ver-detalles {
+    margin-top: 5px;
+    padding: 5px 8px;
+    font-size: 0.8em;
+    color: #fff;
+    background-color: orange;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.btn-ver-detalles:hover {
+    background-color: darkorange;
+}
+
+/* Estilo general para el modal flotante */
+.modal-flotante {
+    display: none; /* Oculto inicialmente */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    text-align: center;
+    max-width: 400px;
+}
+
+.modal-contenido-flotante .cerrar-modal {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+}
+
+.calendario-eventos-btn {
+    background-color: #ff7f50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.calendario-eventos-btn:hover {
+    background-color: #ff5722;
+}
