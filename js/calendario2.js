@@ -215,7 +215,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const eventos = [
         { fecha: new Date(anio, mes, 19), descripcion: "Streaming Especial con Nick", link: "https://twitch.tv/mundobarista" },
-       { fecha: new Date(anio, mes, 17), descripcion: "Streaming Especial con Nick", link: "https://www.twitch.tv/ciendi" },
+       { fecha: new Date(anio, mes, 17), descripcion: "hola (17/12 SHOW EN VIVO en CABA)", link: "https://www.twitch.tv/ciendi" },
     ];
 
     function renderizarCalendario() {
