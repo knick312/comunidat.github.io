@@ -66,14 +66,8 @@ main {
     justify-content: center;
     align-items: center;
     gap: 20px; /* Espacio entre los logos */
+    flex-wrap: wrap; /* Permite que los logos se ajusten si el espacio es limitado */
 }
-
-/* Ajusta el estilo del logo a la derecha */
-.streamer-logo-right {
-    margin-left: 20px;
-}
-
-
 
 /* Fondo circular y sombra para aldimirco y valenn_molina */
 .streamer-logo {
@@ -88,7 +82,7 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Fondo circular y sombra para mirco  */
+/* Fondo circular y sombra para mirco */
 .streamer-logo2 {
     display: flex;
     flex-direction: column;
@@ -99,9 +93,9 @@ main {
     width: 180px;
     height: 180px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
+}
 
-/* Fondo circular y sombra para mirco  */
+/* Fondo circular y sombra para sol */
 .streamer-logo3 {
     display: flex;
     flex-direction: column;
@@ -112,75 +106,7 @@ main {
     width: 180px;
     height: 180px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-
-/* Fondo circular y sombra para sol  */
-.streamer-logo4 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 15px;
-    border-radius: 50%;
-    width: 180px;
-    height: 180px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-/* Contenedor para alinear logos en la sección de aldimirco */
-.streamer-logo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px; /* Espacio entre los logos */
 }
-/* Fondo circular y sombra para chabon  */
-.streamer-logo4 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 15px;
-    border-radius: 50%;
-    width: 180px;
-    height: 180px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-/* Fondo circular y sombra para chabon  */
-.streamer-logo4 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 15px;
-    border-radius: 50%;
-    width: 180px;
-    height: 180px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-/* Fondo circular y sombra para chabon  */
-.streamer-logo5 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 15px;
-    border-radius: 50%;
-    width: 180px;
-    height: 180px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-/* Fondo circular y sombra para chabon  */
-.streamer-logo6 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 15px;
-    border-radius: 50%;
-    width: 180px;
-    height: 180px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
 
 .streamer-logo img {
     width: 150px;
@@ -279,7 +205,6 @@ footer .banner img {
     color: #666; /* Color del texto de derechos de autor */
 }
 
-<<<<<<< HEAD
 /* Asegura que el pie de página esté al final de la página, solo si el contenido es más corto */
 html {
     display: flex;
@@ -295,6 +220,3 @@ body {
 main {
     flex: 1;
 }
-
-=======
->>>>>>> df99dc4d6019635096874cc6e46217b78c84f0ca
