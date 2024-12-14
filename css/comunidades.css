@@ -66,10 +66,16 @@ main {
     justify-content: center;
     align-items: center;
     gap: 20px; /* Espacio entre los logos */
-    flex-wrap: wrap; /* Permite que los logos se ajusten si el espacio es limitado */
 }
 
-/* Fondo circular y sombra para los logos */
+/* Ajusta el estilo del logo a la derecha */
+.streamer-logo-right {
+    margin-left: 20px;
+}
+
+
+
+/* Fondo circular y sombra para aldimirco y valenn_molina */
 .streamer-logo {
     display: flex;
     flex-direction: column;
@@ -80,10 +86,10 @@ main {
     width: 180px;
     height: 180px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin: 10px; /* Espaciado para mejor separación */
 }
-/* Fondo circular y sombra para los logos */
-.streamer-logo streamer-logo-right2{
+
+/* Fondo circular y sombra para mirco  */
+.streamer-logo2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -93,7 +99,89 @@ main {
     width: 180px;
     height: 180px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin: 10px; /* Espaciado para mejor separación */
+    }
+
+/* Fondo circular y sombra para mirco  */
+.streamer-logo3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+/* Fondo circular y sombra para sol  */
+.streamer-logo4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+/* Contenedor para alinear logos en la sección de aldimirco */
+.streamer-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Espacio entre los logos */
+}
+/* Fondo circular y sombra para chabon  */
+.streamer-logo4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+/* Fondo circular y sombra para chabon  */
+.streamer-logo4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+/* Fondo circular y sombra para chabon  */
+.streamer-logo5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+/* Fondo circular y sombra para chabon  */
+.streamer-logo6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
 .streamer-logo img {
     width: 150px;
     height: 150px;
@@ -191,6 +279,7 @@ footer .banner img {
     color: #666; /* Color del texto de derechos de autor */
 }
 
+<<<<<<< HEAD
 /* Asegura que el pie de página esté al final de la página, solo si el contenido es más corto */
 html {
     display: flex;
@@ -207,39 +296,4 @@ main {
     flex: 1;
 }
 
-    /* Ajustes para dispositivos móviles */
-@media (max-width: 768px) {
-    .streamer-logo {
-        width: 120px;
-        height: 120px;
-        padding: 10px;
-    }
-
-    .streamer-logo img {
-        width: 100px;
-        height: 100px;
-    }
-
-    .streamer-logo p {
-        font-size: 16px;
-    }
-
-    .streamer-logo-grid {
-        width: 120px;
-    }
-
-    .streamer-logo-grid img {
-        width: 80px;
-        height: 80px;
-    }
-
-    .streamer-logo-grid p {
-        font-size: 14px;
-    }
-
-    .boton-flotante {
-        bottom: 20px;
-        right: 10px;
-    }
-}
-
+=======
