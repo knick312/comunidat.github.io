@@ -83,7 +83,7 @@ main {
     margin: 10px; /* Espaciado para mejor separación */
 }
 /* Fondo circular y sombra para los logos */
-.streamer-logo5{
+.streamer-logo streamer-logo-right2{
     display: flex;
     flex-direction: column;
     align-items: center;
