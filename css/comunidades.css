@@ -69,7 +69,7 @@ main {
     flex-wrap: wrap; /* Permite que los logos se ajusten si el espacio es limitado */
 }
 
-/* Fondo circular y sombra para aldimirco y valenn_molina */
+/* Fondo circular y sombra para los logos */
 .streamer-logo {
     display: flex;
     flex-direction: column;
@@ -80,32 +80,7 @@ main {
     width: 180px;
     height: 180px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-/* Fondo circular y sombra para mirco */
-.streamer-logo2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 15px;
-    border-radius: 50%;
-    width: 180px;
-    height: 180px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-/* Fondo circular y sombra para sol */
-.streamer-logo3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 15px;
-    border-radius: 50%;
-    width: 180px;
-    height: 180px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px; /* Espaciado para mejor separación */
 }
 
 .streamer-logo img {
