@@ -1,0 +1,102 @@
+/* Banner de Twitch */
+.twitch-banner iframe {
+    border: none;
+    display: block;
+    margin: 0 auto;
+    max-height: 400px;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Contenedor de transmisiones adicionales */
+.contenido-contacto {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Reproductor de otra plataforma */
+.stream {
+    max-width: 600px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.stream h2 {
+    margin-top: 0;
+    color: #f187f7;
+}
+
+/* Formulario de contacto */
+.formulario-contacto {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #fff;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form .btn-enviar {
+    background-color: #f187f7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+form .btn-enviar:hover {
+    background-color: #d076d1;
+}
+/* Fondo completo consistente */
+body, html {
+    background: url('./imagen/fondo.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Remover cualquier fondo adicional en las secciones */
+main {
+    background: none;
+}
+
+.contenido-contacto {
+    background: none; /* Asegura que herede el fondo del body */
+}
+
+.formulario-contacto {
+    background-color: rgba(0, 0, 0, 0.7); /* Mantener el fondo oscuro solo en el formulario */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
