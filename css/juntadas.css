@@ -1,5 +1,10 @@
 /* Estilo para la sección de Juntadas */
 #juntadas-content {
+     height: 100%; /* Establecer altura al 100% para abarcar toda la página */
+    background-image: url('../imagen/juntada.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     text-align: center;
     padding: 20px;
 }
